@@ -29,6 +29,11 @@ https
 ## Architecture du projet
 
 Le projet est organisé comme suit :
+## Architecture du projet
+
+Le projet est organisé comme suit :
+
+```text
 XmlMiniProject1/
 ├─ src/
 │  ├─ app/                 # Classe principale et interface
