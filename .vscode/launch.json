@@ -1,0 +1,28 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "app.App",
+            "projectName": "XmlMiniProject1_81781e36"
+        },
+        {
+            "type": "java",
+            "name": "MainApp",
+            "request": "launch",
+            "mainClass": "app.MainApp",
+            "projectName": "XmlMiniProject1_81781e36"
+        },
+        {
+            "type": "java",
+            "name": "Launch JavaFX App",
+            "request": "launch",
+            "projectName": "XMLMINIPROJECT1",
+            "mainClass": "app.App",
+            "jdkPath": "${env:JAVA_HOME}",
+            "vmArgs": "--module-path \"lib\" --add-modules javafx.controls,javafx.fxml"
+        }
+    ]
+}
