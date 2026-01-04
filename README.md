@@ -30,14 +30,14 @@ https
 
 Le projet est organisé comme suit :
 XmlMiniProject1/
-├─ src/ 
-│ ├─ app/ # Classe principale et interface
-│ │ └─ MainApp.java
-│ └─ converter/ # Classes pour la conversion XML↔JSON
-│ ├─ JsonToXml.java
-│ └─ XmlToJson.java
-├─ bin/ 
-├─ legal/ # Licences et informations légales (JavaFX)
-├─ lib/ # Bibliothèques externes
-├─ out/ # Dossiers de sortie de compilation
-└─ README.md # Description du projet
+├─ src/
+│  ├─ app/                 # Classe principale et interface
+│  │  └─ MainApp.java
+│  └─ converter/           # Classes pour la conversion XML ↔ JSON
+│     ├─ JsonToXml.java
+│     └─ XmlToJson.java
+├─ bin/
+├─ legal/                  # Licences et informations légales (JavaFX)
+├─ lib/                    # Bibliothèques externes
+├─ out/                    # Dossiers de sortie de compilation
+└─ README.md               # Description du projet
