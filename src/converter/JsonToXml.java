@@ -3,7 +3,7 @@ package converter;
 public class JsonToXml {
     public static String convert(String json) {
         try {
-            // Nettoyer et parser manuellement (version simplifiée)
+            // Nettoyer 
             json = json.trim();
             
             // Supprimer les accolades extérieures
