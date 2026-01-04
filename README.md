@@ -13,8 +13,6 @@
 
 ## Vidéo de démonstration
 
-## Vidéo de démonstration
-
 Vous pouvez visionner la vidéo de démonstration ici :  
 [Voir la vidéo sur Google Drive]
 (https://drive.google.com/file/d/1QdeMzfYw43_jjT1XXUzG62zscymahpWV/view?usp=drive_link)
@@ -28,6 +26,18 @@ https
 
 ---
 
-## Notes
+## Architecture du projet
 
-- Les fichiers volumineux (vidéo et certains fichiers binaires) dépassent 50 Mo, GitHub recommande Git LFS pour ces fichiers si vous voulez les modifier fréquemment.
+Le projet est organisé comme suit :
+XmlMiniProject1/
+├─ src/ 
+│ ├─ app/ # Classe principale et interface
+│ │ └─ MainApp.java
+│ └─ converter/ # Classes pour la conversion XML↔JSON
+│ ├─ JsonToXml.java
+│ └─ XmlToJson.java
+├─ bin/ 
+├─ legal/ # Licences et informations légales (JavaFX)
+├─ lib/ # Bibliothèques externes
+├─ out/ # Dossiers de sortie de compilation
+└─ README.md # Description du projet
